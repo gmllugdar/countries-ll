@@ -1,0 +1,73 @@
+.LandingContainer{
+    position: relative;
+    min-height: 100vh;
+    background: #f4faff;
+    overflow: hidden;
+    background: url('../img/stars.jpg');
+  }
+
+  #earth{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    margin: auto;
+
+    height: 300px;
+  
+    background: #0588e4 url('../img/world_globe.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.611);
+
+    transform: scale(1.1);
+    box-shadow:
+      10px 0 60px #d7fffe9c,
+      10px 0 140px #d7fffe7d;
+  
+    transition: 2s;
+    animation: animate 10s linear infinite;
+  }
+
+  @keyframes animate
+  {
+    0%
+    {
+      background-position: left center;    
+    }
+      100%
+    {
+      background-position: -360px center;
+    }
+  }
+  
+  #LinkHome{
+    display: inline-block;
+    text-align: top;
+    transform: translateY(23.5rem);
+    padding: 8px 15px 8px 15px;
+    
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #444444;
+    box-shadow:
+      10px 0 60px #050505,
+      10px 0 140px #ffffff;
+    border-radius: 20%;
+
+    transition: 1s;
+  }
+
+  #LinkHome:hover{
+    color: #000000;
+    background-color: #c8c9c9;
+  }
+  
+  

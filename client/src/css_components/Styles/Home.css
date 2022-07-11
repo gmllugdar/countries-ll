@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(../img/maps.jpg);
+    background-size: 95rem;
+    padding-bottom: 4.2%;
+}
+
+.ContainHome{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.502);
+    height: 70px;
+    margin-bottom: 10px;
+    text-align:left;   
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+
+.ActualCountries{
+    margin-top: 50px;
+}
+.card > p{
+    user-select: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
+.searcher{
+    color: #fff;
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    user-select: none;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    resize: none;
+    outline: none;
+}
+.searcher:hover{
+    background-color: #747474;
+}
+
+.searcher::placeholder{
+    
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: #ffffff;
+    font-size: 15px;
+    
+
+}
+.create_buttom{
+    margin-right:40px;
+    background-color: rgb(129, 3, 3);
+    border: #000; border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.create_buttom:hover{
+    background-color:aquamarine;
+    color: #000;
+    
+}
+
+
+.container{
+    padding-right: 0.5px;
+    width: 200px;
+    height: 30px;
+    display: inline-flex;
+    user-select: none;
+    border-radius: 5px;
+    border-color: #747474;
+    background: #555555;
+    margin-left: 10px;
+}
+
+.actual_countries{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    
+}
+.label{
+    
+    text-transform:uppercase;
+    -webkit-text-stroke: medium
+}
+.label1{
+    background: whitesmoke;
+    padding:1px 2px 1px 2px;
+    color: darkred;
+    border-radius: 5px;
+    border: solid;
+    
+}
+
+.select{
+    margin-right:40px;
+    display: inline-block;
+    margin-left: 7px;
+}
+.filters{
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background-color: #555555;
+    border-radius: 3px;
+    margin: 20px; 
+    color: #fff;
+    text-align: center;
+    resize: none;
+    outline: none;
+}
+.filters:hover{
+    background-color: #747474;
+}
+
+.filters > .options {
+    border-radius: 100px;
+}
+
+.select_1{
+    display: inline-block;
+    margin-left: -35px;
+}
+.select_2{
+    display: inline-block;
+    margin-left: 05px;
+}
+
+.select_container{
+    display: inline-block;
+
+}
+
+input:focus::-webkit-input-placeholder {
+     color:transparent; 
+    }
+

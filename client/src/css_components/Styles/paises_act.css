@@ -1,0 +1,55 @@
+.titulo{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.atr{
+text-align: center;
+-webkit-transform-origin-y: top;
+text-transform: uppercase;
+
+outline-style: solid;
+COLOR: rgb(119, 13, 13);
+}
+.cardp{
+    display: inline-block;
+    
+}
+.nav{
+    list-style-type: none;
+}
+.btnDelete{
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    width: 6rem;
+    height: 3rem;
+    background: rgb(180, 8, 2);
+    
+    
+}
+.btnDelete:hover{
+    color: black;
+    background-color: slategrey;
+    border-bottom-style:groove;
+    
+}
+.btnatra{
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    width: 6rem;
+    height: 3rem;
+    background: rgb(22, 143, 4);
+    
+    
+}
+.btnatra:hover{
+    color: black;
+    background-color: slategrey;
+    border-bottom-style:groove;
+    
+}
+.navt{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+}

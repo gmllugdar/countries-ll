@@ -21,7 +21,7 @@ const x = []
   
 
 
-const a = Country.findAll()
+
 const carga = async()=> {
   
 
@@ -62,10 +62,9 @@ const carga = async()=> {
 
 }
 
-if (!a) {
+
  carga() 
   
-}
 console.log('bd CARGADA')
   
 

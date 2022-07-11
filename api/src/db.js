@@ -14,6 +14,7 @@ let sequelize =
         database: DB_NAME,
         dialect: "postgres",
         host: DB_HOST,
+        port: 5432,
         username: DB_USER,
         password: DB_PASSWORD,
         pool: {
@@ -32,7 +33,7 @@ let sequelize =
         ssl: true,
       })
     : new Sequelize(
-         `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/countries`,
+         `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`,
         { logging: false, native: false }
       );
 
